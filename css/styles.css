@@ -1,0 +1,89 @@
+#nav-list>li{
+	margin-right: 5px;
+	padding: 10px;
+
+	font-size: 30px;
+	font-family: 'Grand Hotel', cursive;
+}
+
+#brandname{
+	color: black;
+    font-size: 54px;
+    font-family: 'Berkshire Swash', cursive;
+     font-family: 'Sacramento', cursive;
+
+}
+
+#slogan{
+  font-size: 45px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: 'Berkshire Swash', cursive;
+  font-family: 'Sacramento', cursive;
+  position: relative;
+  animation-name: example;
+  animation-duration: 3s;
+  animation-fill-mode: backwards;
+}
+
+#yellow{
+	color: #f5ce42;
+}
+
+@keyframes example{
+	from{top:100px;}
+	to{top:0px;}
+}
+
+#nav-list>li:hover{
+	color:white;
+	background-color: #aba6a6;
+}
+
+#header{
+	background-color:White;
+	box-shadow:0px 0px 20px 0px #222;
+
+}
+
+
+
+#section1,#section2{
+	height: 600px;
+	
+}
+
+#section1{
+	background:url(/images/photo-4.jpg) no-repeat;
+	border-top-right-radius: 50%;
+	border-bottom-right-radius: 50%;
+	margin-top: 15px;
+	
+}
+
+
+
+
+
+
+
+
+
+@media(max-width: 992px){
+	#nav-list>li{
+		text-align: center;
+	}
+
+
+     #section1{
+	background:url(/images/photo-4.jpg) no-repeat;
+	margin-right: 100px;
+	border-radius: 50%;
+	margin-left: 40px;
+	margin-right: 40px;
+
+	
+}
+}
+

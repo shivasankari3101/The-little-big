@@ -119,6 +119,10 @@
     #brandname{
 		font-size: 6.8vw;
 	}
+
+	#slogan{
+		font-size: 7vw;
+	}
 }
 
 @media(min-width: 350px) and (max-width:449px){
@@ -156,10 +160,23 @@
 
 }
 
-@media (max-width: 450px){
+@media (max-width: 449px){
 	#slogan{
 		font-size: 8vw;
 	}
 }
+
+@media (max-width: 349px){
+	#slogan{
+		font-size: 9vw;
+	}
+}
+
+@media (max-width: 249px){
+	#slogan{
+		font-size: 10vw;
+	}
+}
+
 
 

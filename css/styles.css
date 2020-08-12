@@ -5,6 +5,15 @@
 	font-size: 30px;
 	font-family: 'Grand Hotel', cursive;
 }
+a{
+	color: black;
+}
+
+a:hover{
+	text-decoration: none;
+	color: white;
+}
+
 
 #brandname{
 	color: black;
@@ -48,7 +57,7 @@
 }
 
 #header>button{
-	border:2px solid #000;
+	outline: none;
 }
 
 #header>button>span{
@@ -70,8 +79,7 @@
 }
 
 #section2{
-	font-family: 'Berkshire Swash', cursive;
-     font-family: 'Sacramento', cursive;
+	
      font-size: 2vw;
 	background-color:#dee1e3;
 	margin-top: 30px;
@@ -88,31 +96,67 @@
 #section2>h1{
 	text-align: center;
     font-family: 'Grand Hotel', cursive;
-    font-weight: bold;
+    
 
 }
 
 @keyframes about{
-	from{top: 300px;display: none;}
+	from{top: 100px;display: none;}
 	to{top: 0px;}
 }
 
 #section3>div>img{
-    margin-bottom: 40px;
+	padding:15px;
+
+    
 }
 
-#section3{
-	position: relative;
-	animation-name: designs;
-	animation-delay: 4s;
+#one,#two,#three,#four,#five,#six,#seven,#eight,#nine{
+	animation-name: shadow;
 	animation-duration: 2s;
 	animation-fill-mode: backwards;
 }
 
-@keyframes designs{
-	from{top: 300px;}
-	to{top: 0px;}
+#one{
+	animation-delay: 4s;
+	
 }
+#two{
+	animation-delay: 6s;
+}
+#three{
+	animation-delay: 8s;
+	
+}
+#four{
+	animation-delay: 10s;
+	
+}
+#five{
+	animation-delay: 12s;
+	
+}
+#six{
+	animation-delay: 14s;
+	
+}
+#seven{
+	animation-delay: 16s;
+}
+#eight{
+	animation-delay: 18s;
+	
+}
+#nine{
+	animation-delay: 20s;
+	
+}
+
+@keyframes shadow{
+	from{box-shadow: 0px 0px 0px 0px #fff;top: 0px;}
+	to{box-shadow: 3px 3px 3px 6px #adb0b3;top: -3px;}
+}
+
 
 
 

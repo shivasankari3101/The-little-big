@@ -23,7 +23,7 @@
   font-family: 'Sacramento', cursive;
   position: relative;
   animation-name: example;
-  animation-duration: 3s;
+  animation-duration: 2s;
   animation-fill-mode: backwards;
 }
 
@@ -55,7 +55,7 @@
 	border:2px solid #000;
 }
 
-#section1,#section2{
+#section1{
 	height: 600px;
 	
 }
@@ -65,14 +65,54 @@
 	border-top-right-radius: 50%;
 	border-bottom-right-radius: 50%;
 	margin-top: 15px;
+
 	
 }
 
+#section2{
+	font-family: 'Berkshire Swash', cursive;
+     font-family: 'Sacramento', cursive;
+     font-size: 2vw;
+	background-color:#dee1e3;
+	margin-top: 30px;
+	margin-bottom: 100px;
+	padding: 30px;
+	box-shadow:5px 5px 5px #adb0b3;
+	position: relative;
+	animation-name: about;
+	animation-delay: 2s;
+	animation-duration: 2s;
+	animation-fill-mode: backwards;
+}
 
+#section2>h1{
+	text-align: center;
+    font-family: 'Grand Hotel', cursive;
+    font-weight: bold;
 
+}
 
+@keyframes about{
+	from{top: 300px;display: none;}
+	to{top: 0px;}
+}
 
+#section3>div>img{
+    margin-bottom: 40px;
+}
 
+#section3{
+	position: relative;
+	animation-name: designs;
+	animation-delay: 4s;
+	animation-duration: 2s;
+	animation-fill-mode: backwards;
+}
+
+@keyframes designs{
+	from{top: 300px;}
+	to{top: 0px;}
+}
 
 
 

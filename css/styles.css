@@ -18,7 +18,7 @@ a:hover{
 #brandname{
 	color: black;
     font-size: 54px;
-    font-family: 'Berkshire Swash', cursive;
+    font-family: 'Berkshire Siwash', cursve;
      font-family: 'Sacramento', cursive;
 
 }
@@ -107,8 +107,13 @@ a:hover{
 
 #section3>div>img{
 	padding:15px;
+}
 
-    
+#section3>h3{
+	font-size: 50px;
+	font-family: 'Berkshire Siwash', cursve;
+     font-family: 'Sacramento', cursive;
+     margin-bottom: 50px;
 }
 
 #one,#two,#three,#four,#five,#six,#seven,#eight,#nine{
@@ -312,6 +317,8 @@ a:hover{
 #copy{
 	margin-top: 70px;
 	margin-bottom: 0px;
+	font-family: 'Berkshire Siwash', cursve;
+     font-family: 'Sacramento', cursive;
 }
 
 

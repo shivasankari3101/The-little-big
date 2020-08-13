@@ -108,9 +108,13 @@ a:hover{
 #section3>div>img{
 	padding:15px;
 
-    
-}
+ }
 
+ #section3 h3{
+ 	margin-bottom: 40px;
+ }
+
+ 
 #one,#two,#three,#four,#five,#six,#seven,#eight,#nine{
 	animation-name: shadow;
 	animation-duration: 2s;
@@ -283,5 +287,37 @@ a:hover{
 
 }
 
+#footer{
+	background-color: black;
+	padding:15px 0px 15px 0px;
+}
 
+#footer li>a:hover{
+	color: black;
+}
 
+#footer span{
+	color: white;
+	margin-right:20px;
+}
+
+#footer>div{
+	justify-content: center;
+	margin-bottom: 30px;
+}
+#menu span:nth-child(2),#menu span:nth-child(1){
+	border-right: 2px solid white;
+	
+}
+
+#menu span{
+	padding-right: 10px;
+	font-size: 2vw;
+}
+
+@media (min-width: 992px){
+	#menu span{
+	padding-right: 5px;
+	font-size: 1.2vw;
+}
+}

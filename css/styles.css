@@ -110,11 +110,14 @@ a:hover{
 }
 
 #section3>h3{
-	font-size: 50px;
+	font-size: 40px;
 	font-family: 'Berkshire Siwash', cursve;
      font-family: 'Sacramento', cursive;
      margin-bottom: 50px;
 }
+
+
+@media (min-width: 577px){
 
 #one,#two,#three,#four,#five,#six,#seven,#eight,#nine{
 	animation-name: shadow;
@@ -162,6 +165,7 @@ a:hover{
 	to{box-shadow: 3px 3px 3px 6px #adb0b3;top: -3px;}
 }
 
+}
 
 
 

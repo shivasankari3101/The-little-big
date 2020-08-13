@@ -175,6 +175,9 @@ a:hover{
 
 	
 }
+    #section2{
+        font-size: 2.5vw;
+    }
 
 
 }
@@ -190,6 +193,10 @@ a:hover{
 	#brandname{
 		font-size: 7vw;
 	}
+
+	#section2{
+        font-size:3vw;
+    }
 }
 
 @media(min-width: 450px) and (max-width:624px){
@@ -207,6 +214,10 @@ a:hover{
 	#slogan{
 		font-size: 7vw;
 	}
+
+	#section2{
+        font-size:3.5vw;
+    }
 }
 
 @media(min-width: 350px) and (max-width:449px){
@@ -220,9 +231,17 @@ a:hover{
 	    #brandname{
 		font-size: 8vw;
 	}
+
+		#section2{
+        font-size:3.85vw;
+    }
+
+    	#slogan{
+		font-size: 8vw;
+	}
 }
 
-@media (max-width:350px){
+@media (max-width:349px){
 
 	#section1{
        background:url("https://shivasankari3101.github.io/The-little-big/images/photo-4_400.jpg") no-repeat;
@@ -240,26 +259,28 @@ a:hover{
 	#brandname{
 		font-size: 10vw;
 	}
+    
+    #section2{
+        font-size:4vw;
+    }
 
-
-}
-
-@media (max-width: 449px){
-	#slogan{
-		font-size: 8vw;
-	}
-}
-
-@media (max-width: 349px){
-	#slogan{
+    #slogan{
 		font-size: 9vw;
 	}
+
 }
+
+
 
 @media (max-width: 249px){
 	#slogan{
 		font-size: 10vw;
 	}
+
+	 #section2{
+        font-size:5vw;
+    }
+
 }
 
 

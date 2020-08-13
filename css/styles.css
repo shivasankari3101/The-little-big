@@ -283,5 +283,35 @@ a:hover{
 
 }
 
+#footer{
+	background-color: #000;padding: 15px;
+}
+
+#icons,#menu,#contact,#copy{
+	justify-content: center;
+	color: white;
+	margin-bottom: 20px;
+    font-weight: 2vw;
+}
+
+
+#icons i{
+	margin-right: 20px;
+}
+
+#menu a{
+	margin-right: 20px;
+	padding-right:  10px;
+	border-right: 2px solid white;
+}
+
+#menu a:nth-child(3){
+	border-right: 0px ;
+}
+
+#copy{
+	margin-top: 70px;
+	margin-bottom: 0px;
+}
 
 

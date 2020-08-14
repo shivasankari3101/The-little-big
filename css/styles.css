@@ -11,7 +11,8 @@ a{
 
 a:hover{
 	text-decoration: none;
-	color: white;
+	color: black;
+	font-size: 1.05em;
 }
 
 
@@ -47,7 +48,7 @@ a:hover{
 
 #nav-list>li:hover{
 	color:white;
-	background-color: #aba6a6;
+	
 }
 
 #header{
@@ -84,7 +85,7 @@ a:hover{
 	background-color:#dee1e3;
 	margin-top: 30px;
 	margin-bottom: 100px;
-	padding: 30px;
+	padding: 0px 30px 30px 30px;
 	box-shadow:5px 5px 5px #adb0b3;
 	position: relative;
 	animation-name: about;

@@ -41,8 +41,8 @@ a:hover{
 }
 
 @keyframes example{
-	from{top:100px;}
-	to{top:0px;}
+	from{top:100px;opacity: 0;}
+	to{top:0px;opacity: 1;}
 }
 
 #nav-list>li:hover{
@@ -103,8 +103,8 @@ a:hover{
 }
 
 @keyframes about{
-	from{top: 100px;display: none;}
-	to{top: 0px;}
+	from{top: 100px;opacity: 0;}
+	to{top: 0px;opacity: 1;}
 }
 
 #section3>div>img{

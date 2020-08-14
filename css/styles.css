@@ -96,8 +96,10 @@ a:hover{
 #section2>h1{
 	text-align: center;
     font-family: 'Grand Hotel', cursive;
-    
+}
 
+#section2>p{
+	font-family: 'Libre Caslon Display', serif;
 }
 
 @keyframes about{
@@ -109,11 +111,18 @@ a:hover{
 	padding:15px;
 }
 
-#section3>h3{
+#section3>div{
+     justify-content: center;
+}
+
+#section3>div:nth-child(2){
+	margin-bottom: 50px;
+}
+
+#section3>div>h3{
 	font-size: 40px;
 	font-family: 'Berkshire Siwash', cursve;
      font-family: 'Sacramento', cursive;
-     margin-bottom: 50px;
 }
 
 
@@ -323,6 +332,15 @@ a:hover{
 	margin-bottom: 0px;
 	font-family: 'Berkshire Siwash', cursve;
      font-family: 'Sacramento', cursive;
+}
+
+#footer a{
+	color: white;
+}
+
+#footer a:hover{
+	text-decoration: none;
+	
 }
 
 

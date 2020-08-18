@@ -126,6 +126,27 @@ a:hover{
      font-family: 'Sacramento', cursive;
 }
 
+#seemore,#seeless{
+	color: #33807c;
+	font-family: 'Berkshire Siwash', cursve;
+     font-family: 'Sacramento', cursive;
+     font-size: 1.8em;
+     margin-top: 20px;
+     margin-bottom: 20px;
+     text-align: right;
+     animation-name: size;
+     animation-duration: 2s;
+     animation-iteration-count: infinite;
+}
+
+@keyframes size{
+	from{font-size: 1.8em;}
+	to{font-size: 2.1em;}
+}
+
+
+
+
 
 @media (min-width: 577px){
 

@@ -70,6 +70,7 @@
 		<img src="images/image-3.jpg" class="col-sm-3 col-md-4" id="two">
 		<img src="images/image-7.jpg" class="col-sm-3 col-md-4" id="three">
 	</div>
+	<a id="seemore" onclick="seemore()">See more </a>
     <div class="row" id="row2">
 		<img src="images/image-4.jpg" class="col-sm-3 col-md-4" id="four">
 		<img src="images/image-6.jpg" class="col-sm-6 col-md-4" id="five">
@@ -79,9 +80,12 @@
 		<img src="images/image-2.jpg" class="col-sm-3 col-md-4" id="seven">
 		<img src="images/image-9.jpg" class="col-sm-3 col-md-4" id="eight">
 		<img src="images/image-8.jpg" class="col-sm-6 col-md-4" id="nine">
-	</div>
 
+	</div>
+	<a id="seeless" onclick="seeless()">See less </a>
+	
 </div>
+
 
 <div class="container-fluid" id="footer">
    
@@ -112,6 +116,22 @@
 
 	
 </div>
+<script>
+	seeless();
+	function seemore(){
+		document.querySelector("#row2").style.display="inline";
+		document.querySelector("#row3").style.display="inline";
+		document.querySelector("#seemore").style.display="none";
+		document.querySelector("#seeless").style.display="block";	
+	}
+
+	function seeless(){
+		document.querySelector("#row2").style.display="none";
+		document.querySelector("#row3").style.display="none";
+		document.querySelector("#seeless").style.display="none";
+		document.querySelector("#seemore").style.display="block";
+	}
+</script>
 
 
  

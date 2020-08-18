@@ -167,29 +167,6 @@ a:hover{
 	animation-delay: 8s;
 	
 }
-#four{
-	animation-delay: 10s;
-	
-}
-#five{
-	animation-delay: 12s;
-	
-}
-#six{
-	animation-delay: 14s;
-	
-}
-#seven{
-	animation-delay: 16s;
-}
-#eight{
-	animation-delay: 18s;
-	
-}
-#nine{
-	animation-delay: 20s;
-	
-}
 
 @keyframes shadow{
 	from{box-shadow: 0px 0px 0px 0px #fff;top: 0px;}
